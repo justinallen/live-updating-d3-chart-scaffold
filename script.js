@@ -95,7 +95,7 @@ function json(response) {
 }
 
 // first call to fetch api and initial build of chart
-// fetch('https://api.sos.ca.gov/returns/superintendent-of-public-instruction')
+// fetch('https://api.example.com/endpoint')
 fetch("testdata.json")
   .then(status)
   .then(json)
