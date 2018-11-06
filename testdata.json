@@ -1,0 +1,17 @@
+{
+    "name": "Choices",
+    "choices": [
+        {
+            "name": "Yes",
+            "votes": "987"
+        },
+        {
+            "name": "No",
+            "votes": "878"
+        },
+        {
+            "name": "Maybe so",
+            "votes": "378"
+        }        
+    ]
+}

@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 22px;
+  margin: 0px;
+  font-family: "Inconsolata", monospace;
+}
+
+h1 {
+  text-align: center;
+  color: #4a4a4a;
+  font-weight: 600;
+}
+
+.bar {
+  fill: pink;
+}
+
+text,
+.textObject {
+  font-family: "Inconsolata", monospace;
+  font-size: 16px;
+}
+
+.responsive-svg-container {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  padding-bottom: 70%; /* depends on svg ratio, for my zebra height/width = 1.2 so padding-bottom = 50% * 1.2 = 60% */
+  vertical-align: middle; /* top | middle | bottom ... do what you want */
+}
+
+.responsive-svg {
+  /* svg into : object, img or inline */
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* only required for <img /> */
+}
+
+.xAxis {
+  display: none;
+}
