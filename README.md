@@ -1,7 +1,6 @@
-# live-updating-d3-chart-scaffold
-Live-updating D3 Chart Scaffold
+# Live-updating D3 Chart Scaffold
 
-![alt text](https://raw.githubusercontent.com//justinallen/live-updating-d3-chart-scaffold/master/img/screenshot.png)
+![screenshot of chart](https://raw.githubusercontent.com/justinallen/live-updating-d3-chart-scaffold/master/img/screenshot.png)
 
 An intentionally unsophisticated live-updating [D3](https://github.com/d3/d3) chart. It sidesteps the design pattern for merging your data and re-rendering elements in favor of a simple re-render of the entire chart on fetching new data. 
 
